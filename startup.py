@@ -47,7 +47,6 @@ lin_reg.fit(xtrain, ytrain)
 
 
 st.markdown("<h1 style = 'color: #0C2D57; text-align: center; font-family: helvetica'>COMPANY PROFIT PREDICTION</h1>", unsafe_allow_html = True)
-
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '>Built By Oladimeji </h4>", unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 
