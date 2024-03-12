@@ -68,7 +68,7 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 
-st.markdown("<h4 style = 'margin: -30px; color: green; text-align: center; font-family: helvetica '> Input Variable </h4>", unsafe_allow_html = True)   
+st.markdown("<h4 style = 'margin: -30px; color: green; text-align: center; font-family: helvetica '>Input Variable</h4>", unsafe_allow_html = True)   
 
 inputs = pd.DataFrame()
 
@@ -76,7 +76,7 @@ inputs['R&D Spend'] = [rd_spend]
 inputs['Administration'] = [admin]
 inputs['Marketing Spend'] = [mkt_exp]
 
-st.dataframe(inputs, use_container_width= True)
+st.dataframe(inputs, use_container_width = True)
 
 #transforming
 inputs['R&D Spend'] = rd_spend_scale.transform(inputs[['R&D Spend']])
